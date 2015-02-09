@@ -49,3 +49,30 @@ for (var i = 0; i<10; i++) {
 };
 
 console.log("-----");
+
+/**
+ * Example Output *
+Calling evenDoubler for value: 0                        
+Calling evenDoubler for value: 1                        
+Calling evenDoubler for value: 2                        
+Calling evenDoubler for value: 3                        
+Calling evenDoubler for value: 4                        
+Calling evenDoubler for value: 5                        
+Calling evenDoubler for value: 6                        
+Calling evenDoubler for value: 7                        
+Calling evenDoubler for value: 8                        
+Calling evenDoubler for value: 9                        
+-----                                                   
+ERROR: (6 ms) Odd input                                 
+ERROR: (127 ms) Odd input                               
+ERROR: (203 ms) Odd input                               
+CLEAN: (232 ms) The results are: 8                      
+ERROR: (307 ms) Odd input                               
+CLEAN: (350 ms) The results are: 16                     
+CLEAN: (516 ms) The results are: 12                     
+CLEAN: (706 ms) The results are: 0                      
+ERROR: (777 ms) Odd input                               
+CLEAN: (796 ms) The results are: 4                      
+CLEAN: (796 ms) Done!    
+*/
+d
