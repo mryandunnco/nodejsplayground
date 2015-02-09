@@ -75,4 +75,3 @@ ERROR: (777 ms) Odd input
 CLEAN: (796 ms) The results are: 4                      
 CLEAN: (796 ms) Done!    
 */
-d
