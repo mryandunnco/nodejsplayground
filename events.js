@@ -7,6 +7,10 @@ var getResource = function(c) {
         e.emit('start');
         var t = setInterval(function () {
             e.emit('data', ++count);
+            if (count === 3)
+            {
+                e.emit('special', 'came from an event!');
+            }
             if (count === c) {
                 e.emit('end', count);
                 clearInterval(t);
@@ -23,6 +27,10 @@ r.on('start', function() {
 });
 
 r.on('data', function(d) {
+    console.log("   I received data -> " + d);
+});
+
+r.on('special', function(d) {
     console.log("   I received data -> " + d);
 });
 
